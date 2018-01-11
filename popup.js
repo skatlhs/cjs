@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#bkgOverlay").delay(7800).fadeIn(400);$("#delayedPopup").delay(8000).fadeIn(400);$("#btnClose").click(function(e){HideDialog();e.preventDefault();});});function HideDialog(){$("#bkgOverlay").fadeOut(400);$("#delayedPopup").fadeOut(300);}
